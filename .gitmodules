@@ -1,0 +1,7 @@
+[submodule "themes/soho"]
+	path = themes/soho
+	url = https://github.com/alexandrevicenzi/soho.git
+[submodule "public"]
+	path = public
+	url = https://github.com/ChoQuality/ChoQuality.github.io.git
+	branch = master

@@ -12,7 +12,7 @@
         <div class="author-image">
           <a href="{{ $.Site.BaseURL }}">
             <div>
-              <span text ="{{ . | absURL }}"></span>
+              <span text ="{{ . | urlize }}"></span>
             </div>
             <img src="{{ . | absURL }}" class="img-circle img-headshot center" alt="Profile Picture">
           </a>

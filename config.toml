@@ -13,7 +13,7 @@ description = "My Blog"
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "images/profile.png"
+profilePicture = ["images/profile.png"]
 
 copyright = "Author Name"
 license = "CC BY-SA 4.0"

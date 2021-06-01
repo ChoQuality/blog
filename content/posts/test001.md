@@ -25,7 +25,7 @@ Websites built with Hugo are extremelly fast, secure and can be deployed anywher
 Learn more and contribute on [GitHub](https://github.com/gohugoio).
 
 <script src="https://gist.github.com/ChoQuality/6938038c1ffc36ab80ce4020a3621564.js"></script>
-{{< gist 6938038c1ffc36ab80ce4020a3621564>}}
+{{< gist 6938038c1ffc36ab80ce4020a3621564 >}}
 
 
 

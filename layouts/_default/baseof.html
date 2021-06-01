@@ -3,6 +3,9 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
+
   {{ hugo.Generator }}
 
   {{ if .IsHome -}}
@@ -73,8 +76,6 @@
   {{ range $.Site.Params.customJs -}}
   <script src="{{ . | relURL }}"></script>
   {{- end}}
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
 
   {{ template "_internal/google_analytics_async.html" . }}
 </body>

@@ -19,11 +19,20 @@
   {{ partial "share.html" . }}
   {{- end }}
 
-  {{ if (and .Site.DisqusShortname (ne .Params.DisableComments true) (ne .Params.disable_comments true)) -}}
+  <!--{{ if (and .Site.DisqusShortname (ne .Params.DisableComments true) (ne .Params.disable_comments true)) -}}-->
   <div class="comments">
     <h2>Comments</h2>
-    {{ template "_internal/disqus.html" . }}
+    <div>
+      <script src="https://utteranc.es/client.js"
+              repo="https://github.com/ChoQuality/blog-comment.git"
+              issue-term="pathname"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+    <!--{{ template "_internal/disqus.html" . }}-->
   </div>
-  {{- end }}
+  <!--{{- end }}-->
 </div>
 {{- end }}

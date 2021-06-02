@@ -1,4 +1,5 @@
-<script id="data" type="application/json">{"userId":1234,"userName":"John Doe","memberSince":"2000-01-01T00:00:00.000Z"}</script>
-<script src="/js/gistParser.js"></script>
+<!--<script id="data" type="application/json">{"userId":1234,"userName":"John Doe","memberSince":"2000-01-01T00:00:00.000Z"}</script>
+<script src="/js/gistParser.js"></script>>-->
+<div data-parse="{{.Get 0}}"></div>
 <script type="application/javascript" src='"https://gist.github.com/" + {{.Get 0}} + "/"+"{{.Get 1}}"+".js"'></script>
 

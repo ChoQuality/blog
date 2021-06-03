@@ -1,5 +1,5 @@
 baseURL = "https://choquality.github.io/"
-title = "이것저것"
+title = "코몽이"
 languageCode = "en"
 enableInlineShortcodes = true
 theme = "soho"

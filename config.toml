@@ -64,7 +64,7 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 
   [[menu.main]]
   name = "참고?"
-  weight = 200
+  weight = 400
   identifier = "sites"
   url = "/sites/"
 

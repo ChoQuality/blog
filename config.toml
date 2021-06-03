@@ -13,7 +13,7 @@ description = "K-Mong"
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "images/profile.png"
+profilePicture = "images/kmong.png"
 
 copyright = "Author Name"
 license = "CC BY-SA 4.0"
@@ -23,8 +23,8 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 # themeColor = "#fc2803"
 
 ## Set custom CSS and/or JS to override site defaults.
-customCss = ["css/blog.css"]
-customJs = ["js/blog.js"]
+#customCss = ["css/blog.css"]
+#customJs = ["js/blog.js"]
 
   ## Set as many as you want.
   [[params.socialIcons]]

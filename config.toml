@@ -1,5 +1,5 @@
 baseURL = "https://choquality.github.io/"
-title = "Soho"
+title = "이것저것"
 languageCode = "en"
 enableInlineShortcodes = true
 theme = "soho"
@@ -9,7 +9,7 @@ enableEmoji = true
 
 [params]
 author = "Author Name"
-description = "My Blog"
+description = "K-Mong"
 
 ## Set one of:
 # gravatar = "soho@example.com"

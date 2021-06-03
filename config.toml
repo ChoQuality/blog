@@ -47,25 +47,25 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
   [[menu.main]]
   name = "정리?"
   weight = 100
-  identifier = "posts"
+  identifier = "1"
   url = "/posts/"
 
   [[menu.main]]
   name = "미정?"
   weight = 200
-  identifier = "undefined"
+  identifier = "2"
   url = "/undefined/"
 
   [[menu.main]]
   name = "생각?"
-  identifier = "about"
+  identifier = "3"
   weight = 300
   url = "/about/"
 
   [[menu.main]]
   name = "참고?"
   weight = 400
-  identifier = "sites"
+  identifier = "4"
   url = "/sites/"
 
 [taxonomies]

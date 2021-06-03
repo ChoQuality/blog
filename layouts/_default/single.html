@@ -1,6 +1,6 @@
 {{ define "main" -}}
 <div class="post">
-  <h1 class="title">{{ .absUrl }}</h1>
+  <h1 class="title">{{ .Name }}</h1>
   {{ with .Params.tagline }}<span class="tagline">{{ . }}</span>{{ end }}
 
   {{ if ne .Type "page" -}}

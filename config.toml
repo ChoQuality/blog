@@ -45,16 +45,28 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 [menu]
 
   [[menu.main]]
-  name = "Posts"
+  name = "정리?"
   weight = 100
   identifier = "posts"
   url = "/posts/"
 
   [[menu.main]]
-  name = "About"
+  name = "미정?"
+  weight = 200
+  identifier = "undefined"
+  url = "/undefined/"
+
+  [[menu.main]]
+  name = "생각?"
   identifier = "about"
   weight = 300
   url = "/about/"
+
+  [[menu.main]]
+  name = "참고?"
+  weight = 200
+  identifier = "sites"
+  url = "/sites/"
 
 [taxonomies]
   category = "categories"

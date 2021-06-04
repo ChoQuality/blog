@@ -8,6 +8,9 @@
   <h1>{{ .Title }}</h1>
   <h1>{{ .Description }}</h1>
   <h1>{{ .Pages }}</h1>
+  <h1>{{ .Site.Pages }}</h1>
+  <h1>{{ .Section }}</h1>
+
   {{ range .Data.Pages -}}
   <li>
     <div class="flex">

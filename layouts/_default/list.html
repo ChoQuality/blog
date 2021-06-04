@@ -1,6 +1,6 @@
 {{ define "main" -}}
 <ul class="posts">
-  <h1>{{ . }}</h1>
+  <script src="https://choquality.github.io/js/convertSection.js?section={{.Section}}"></script>
   {{ range .Data.Pages -}}
   <li>
     <div class="flex">

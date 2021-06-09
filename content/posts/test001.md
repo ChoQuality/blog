@@ -35,11 +35,11 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - [git submodule add -b master https://github.com/ChoQuality/ChoQuality.github.io.git public]
 
 5. 새로운 글을 등록 후 git push 해주자 
-    - [hugo new posts/test.md]
-    - [hugo -D]
-    - [cd public]
-    - [git add .]
-    - [git commit -m "msg"]
+    - (hugo new posts/test.md)
+    - (hugo -D)
+    - (cd public)
+    - (git add .)
+    - (git commit -m "msg")
     - [git push origin master]
     - [cd ..]
     - [git add .]

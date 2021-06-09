@@ -79,7 +79,7 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
         </div>
        우선 동작은 원하는 gist 내용을 html에 넣고 그후 아래 gistParser.js를 불러 해당 gist 내용의 일부를 잘라 표현 하게 했다.[js 동작은 제대로 검증을 안함, 적당히 돌아가는듯]
        {{< gister choquality 21ab82646e4786dda4c9c9752b576002 0 2 >}}
-       사용법은 다음과 같다 '/{{< >}}/'의 <> 안에 아래 같이 넣어주면 된다.      
+       사용법은 다음과 같다.      
        gister[생성한 html 명] choquality[gist 주소] 21ab82646e4786dda4c9c9752b576002[gist hash] 0[min] 2[max] 
 
 

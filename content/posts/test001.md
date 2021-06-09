@@ -59,13 +59,13 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
       {{< img "images/utterances.png" >}}      
       옆의 Configure을 눌러 repository 선택 후  blog-comment 를 등록 
     - [utterances](https://utteranc.es/) 내 configuration 내 repo를 알맞게 적어준 주고,     
-        \ 원하는 Blog Post <-> Issue Mapping을 선택
+         원하는 Blog Post <-> Issue Mapping을 선택
       {{< img "images/comment.png" >}}
     - Enable Utterances 아래 copy를 눌러 해당 내용을  
-        \ layouts/partials/share.html 아래 넣어 준다.[soho theme 기준이다. 다른 테마 이면 알아서 알맞은 곳에 넣자]
+         layouts/partials/share.html 아래 넣어 준다.[soho theme 기준이다. 다른 테마 이면 알아서 알맞은 곳에 넣자]
       {{< gister choquality 48f076e391d269a752b85cf87e393102 0 8 >}}
     - 잘 표출 되는지 확인 하자.
-        \ 만약 안되는 사람의 경우  utterances.json 을 만들어 blog-comment 에 push
+         만약 안되는 사람의 경우  utterances.json 을 만들어 blog-comment 에 push
       {{< gister choquality a6268d1e87371ddc60554f4b67856dc9 0 100 >}}
 
 7. Gist 등록해 보기?
@@ -82,7 +82,7 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
             <script src="https://choquality.github.io/js/gistParser.js?id={{.Get 1}}&min={{.Get 2}}&max={{.Get 3}}"></script>
         </div>
        우선 동작은 원하는 gist 내용을 html에 넣고 그후 아래 gistParser.js를 불러 해당 gist 내용의 일부를 잘라 표현 하게 했다.    
-       \ [js 동작은 제대로 검증을 안함, 적당히 돌아가는듯]
+        [js 동작은 제대로 검증을 안함, 적당히 돌아가는듯]
        {{< gister choquality 21ab82646e4786dda4c9c9752b576002 0 2 >}}
        사용법은 다음과 같다.      
        gister[생성한 html 명] choquality[gist 주소] 21ab82646e4786dda4c9c9752b576002[gist hash] 0[min] 2[max] 

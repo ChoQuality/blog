@@ -46,7 +46,7 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - (git commit -m "msg")
     - (git push origin master)
     - ==========================
-    위 내용을 귀찮게 다 쓰는게 싫어서 아래 같이 해버림. [다른 사람 블로그 내용을 넣었다.](https://ryan-han.com/post/etc/creating_static_blog/)
+    - 위 내용을 귀찮게 다 쓰는게 싫어서 아래 같이 해버림. [다른 사람 블로그 내용을 넣었다.](https://ryan-han.com/post/etc/creating_static_blog/)
     - [touch deploy.sh] 
       {{< gister choquality ffcb5d114671962d15f334f03fc57639 0 5 >}}
 

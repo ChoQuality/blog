@@ -45,12 +45,12 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - (git add .)
     - (git commit -m "msg")
     - (git push origin master)
-    ==========================
+    - ==========================
     위 내용을 귀찮게 다 쓰는게 싫어서 아래 같이 해버림. [다른 사람 블로그 내용을 넣었다.](https://ryan-han.com/post/etc/creating_static_blog/)
     - [touch deploy.sh] 
       {{< gister choquality ffcb5d114671962d15f334f03fc57639 0 5 >}}
 
-6. blog 내 comment 를 등록 [utterances](https://utteranc.es/) 기
+6. blog 내 comment 를 등록 [utterances](https://utteranc.es/) 기준
     - [utterances apps 등록](https://github.com/apps/utterances) 을 한다.
       등록을 하고 계정의 blog-comment의 setting 내 Integrations 를 보면 utterances가 보인다.
       {{< img "images/utterances.png" >}}      

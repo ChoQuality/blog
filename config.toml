@@ -27,20 +27,20 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 #customJs = ["js/blog.js"]
 
   ## Set as many as you want.
-  [[params.socialIcons]]
-  icon = "fa-linkedin"
-  title = "Linkedin"
-  url = "#"
+  #[[params.socialIcons]]
+  #icon = "fa-linkedin"
+  #title = "Linkedin"
+  #url = "#"
 
-  [[params.socialIcons]]
-  icon = "fa-github"
-  title = "GitHub"
-  url = "#"
+  #[[params.socialIcons]]
+  #icon = "fa-github"
+  #title = "GitHub"
+  #url = "#"
 
-  [[params.socialIcons]]
-  icon = "fa-twitter"
-  title = "Twitter"
-  url = "#"
+  #[[params.socialIcons]]
+  #icon = "fa-twitter"
+  #title = "Twitter"
+  #url = "#"
 
 [menu]
 

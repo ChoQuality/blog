@@ -79,8 +79,8 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - 만약 gist 내용 일부 표출 되는 걸 원하는 사람이 있다면, 별도의 shortcodes 내 html를 작성해야 한다.
       * layouts 폴더 아래 shortcodes 생성 후 gister.html 란 파일을 생성 [이름은 알아서]
         gister.html 내용은 아래 같이 작성 했다.
-       * [ <div> id="{{.Get 1}}" data-parse="{{.Get 2}}"><script src="https://gist.github.com/{{.Get 0}}/{{.Get 1}}.js"></script><script src="https://choquality.github.io/js/gistParser.js?id={{.Get 1}}&min={{.Get 2}}&max={{.Get 3}}"></script></div>]
-       우선 동작은 원하는 gist 내용을 html에 넣고 그후 아래 gistParser.js를 불러 해당 gist 내용의 일부를 잘라 표현 하게 했다.    
+       * [ "<div> id="{{.Get 1}}" data-parse="{{.Get 2}}"><script src="https://gist.github.com/{{.Get 0}}/{{.Get 1}}.js"></script><script src="https://choquality.github.io/js/gistParser.js?id={{.Get 1}}&min={{.Get 2}}&max={{.Get 3}}"></script></div>"]
+        우선 동작은 원하는 gist 내용을 html에 넣고 그후 아래 gistParser.js를 불러 해당 gist 내용의 일부를 잘라 표현 하게 했다.    
         [js 동작은 제대로 검증을 안함, 적당히 돌아가는듯]
        {{< gister choquality 21ab82646e4786dda4c9c9752b576002 0 2 >}}
        사용법은 다음과 같다.      

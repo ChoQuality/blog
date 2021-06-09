@@ -9,21 +9,18 @@ author = "k-mong"
 github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 같이 남겨 둠.(Mac 기준)
 
 1.  [Hugo 퀵 스타트 가이드](https://gohugo.io/getting-started/quick-start/)  에 맞춰 아래 내용만 진행.
-    - Step 1: Install Hugo
-    
-            *[brew install hugo]
-            *[hugo version] 시 문제 없다면 설치는 완료 된것
-            
-    - Step 2: Create a New Site 
-    
-            *[hugo new site blog]
-             
-    - Step 3: Add a Theme [Theme 종류](https://themes.gohugo.io/) 를 선택 후 아래 명령어 진행(현재 사이트 적용 테마)
-    
-            *[cd blog]
-            *[git init] 
-            *[cd themes]
-            *[git submodule add https://github.com/alexandrevicenzi/soho.git]
+    - Step 1: Install Hugo    
+            \[brew install hugo]
+            \[hugo version] 시 문제 없다면 설치는 완료 된것
+            \
+    - Step 2: Create a New Site    
+            \[hugo new site blog]
+            \
+    - Step 3: Add a Theme [Theme 종류](https://themes.gohugo.io/) 를 선택 후 아래 명령어 진행(현재 사이트 적용 테마)    
+            \[cd blog]
+            \[git init] 
+            \[cd themes]
+            \[git submodule add https://github.com/alexandrevicenzi/soho.git]
 
 2. 1번 내용의 Step 3 까지 진행이 되어 있다고 하면 아래와 같이 결과가 있을 것 이다.
     - blog 폴더 내 이동 후 [ls -al] 명령어를 통해 

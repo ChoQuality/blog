@@ -28,23 +28,23 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - {{< img "images/posts/gitRepo.png" >}}
     - blog Repository = brew 로 생성된 폴더 전체를 저장할 곳
     - ChoQuality.github.io Repository = 웹사이트 표출 내용 저장할 곳
-    - blog-comment Repository = 각 블로그 내용별 커멘트 저장할  
+    - blog-comment Repository = 각 블로그 내용별 커멘트 저장할 곳
     
 4. 생성된 Repository 들을 blog와  git 명령어를 통해 연결 (아래 명령어 중간은 각자의 github 주소로 변경)
     - [git remote add origin https://github.com/ChoQuality/blog.git]
     - [git submodule add -b master https://github.com/ChoQuality/ChoQuality.github.io.git public]
 
 5. 새로운 글을 등록 후 git push 해주자 
-    - (hugo new posts/test.md)
-    - (hugo -D)
-    - (cd public)
-    - (git add .)
-    - (git commit -m "msg")
-    - (git push origin master)
-    - (cd ..)
-    - (git add .)
-    - (git commit -m "msg")
-    - (git push origin master)
+    - hugo new posts/test.md
+    - hugo -D
+    - cd public
+    - git add .
+    - git commit -m "msg"
+    - git push origin master
+    - cd ..
+    - git add .
+    - git commit -m "msg"
+    - git push origin master
     - ==========================
     - 위 내용을 귀찮게 다 쓰는게 싫어서 아래 같이 해버림. [다른 사람 블로그 내용을 넣었다.](https://ryan-han.com/post/etc/creating_static_blog/)
     - [touch deploy.sh] 

@@ -82,8 +82,5 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
        사용법은 다음과 같다 "{{< >}}"의 <> 안에 아래 같이 넣어주면 된다.      
        gister[생성한 html 명] choquality[gist 주소] 21ab82646e4786dda4c9c9752b576002[gist hash] 0[min] 2[max] 
 
-{{< img "images/kmong.png" >}}
-
-
 
 

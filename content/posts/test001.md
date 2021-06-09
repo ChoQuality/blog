@@ -10,8 +10,8 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
 
 1.  [Hugo 퀵 스타트 가이드](https://gohugo.io/getting-started/quick-start/)  에 맞춰 아래 내용만 진행.
     - Step 1: Install Hugo    
-            \[brew install hugo]
-            \[hugo version] 시 문제 없다면 설치는 완료 된것
+            \[brew install hugo]    
+            \[hugo version] 시 문제 없다면 설치는 완료 된것  
             \
     - Step 2: Create a New Site    
             \[hugo new site blog]

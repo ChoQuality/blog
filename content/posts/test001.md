@@ -16,7 +16,8 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - Step 2: Create a New Site    
             \[hugo new site blog]   
             
-    - Step 3: Add a Theme [Theme 종류](https://themes.gohugo.io/) 를 선택 후 아래 명령어 진행    \   (현재 사이트 적용 테마)    
+    - Step 3: Add a Theme [Theme 종류](https://themes.gohugo.io/) 를 선택 후 아래 명령어 진행      
+            \(현재 사이트 적용 테마)    
             \[cd blog]  
             \[git init]  
             \[cd themes]    

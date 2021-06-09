@@ -40,7 +40,7 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - (cd public)
     - (git add .)
     - (git commit -m "msg")
-    - [git push origin master]
+    - (git push origin master)
     - [cd ..]
     - [git add .]
     - [git commit -m "msg"]

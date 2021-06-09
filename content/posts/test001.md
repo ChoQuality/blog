@@ -55,7 +55,8 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
       등록을 하고 계정의 blog-comment의 setting 내 Integrations 를 보면 utterances가 보인다.
       {{< img "images/utterances.png" >}}      
       옆의 Configure을 눌러 repository 선택 후  blog-comment 를 등록 
-    - [utterances](https://utteranc.es/) 내 configuration 내 repo를 알맞게 적어준 주고, 원하는 Blog Post <-> Issue Mapping을 선택
+    - [utterances](https://utteranc.es/) 내 configuration 내 repo를 알맞게 적어준 주고, 
+      원하는 Blog Post <-> Issue Mapping을 선택
       {{< img "images/comment.png" >}}
     - Enable Utterances 아래 copy를 눌러 해당 내용을  
       layouts/partials/share.html 아래 넣어 준다.[soho theme 기준이다. 다른 테마 이면 알아서 알맞은 곳에 넣자]

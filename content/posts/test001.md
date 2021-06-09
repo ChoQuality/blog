@@ -33,7 +33,8 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
     - ChoQuality.github.io Repository = 웹사이트 표출 내용 저장할 곳
     - blog-comment Repository = 각 블로그 내용별 커멘트 저장할 곳
     
-4. 생성된 Repository 들을 blog와  git 명령어를 통해 연결 (아래 명령어 중간은 각자의 github 주소로 변경)
+4. 생성된 Repository 들을 blog와  git 명령어를 통해 연결 
+    (아래 명령어 중간은 각자의 github 주소로 변경)
     - [git remote add origin https://github.com/ChoQuality/blog.git]
     - [git submodule add -b master https://github.com/ChoQuality/ChoQuality.github.io.git public]
 
@@ -62,7 +63,8 @@ github에 Hugo를 적용 하여 정적인 사이트 만든 후 기록차 아래 
          원하는 Blog Post <-> Issue Mapping을 선택
       {{< img "images/comment.png" >}}
     - Enable Utterances 아래 copy를 눌러 해당 내용을  
-         layouts/partials/share.html 아래 넣어 준다.[soho theme 기준이다. 다른 테마 이면 알아서 알맞은 곳에 넣자]
+         layouts/partials/share.html 아래 넣어 준다.
+         [soho theme 기준이다. 다른 테마 이면 알아서 알맞은 곳에 넣자]
       {{< gister choquality 48f076e391d269a752b85cf87e393102 0 8 >}}
     - 잘 표출 되는지 확인 하자.
          만약 안되는 사람의 경우  utterances.json 을 만들어 blog-comment 에 push
